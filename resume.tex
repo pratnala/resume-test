@@ -1,0 +1,134 @@
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig}
+\usepackage{ragged2e}
+\usepackage[pro]{fontawesome5}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%% Titlebar
+
+\namesection{Lorem}{Ipsum}{\faGlobe~~\urlstyle{same}\href{https://www.loremipsum.com}{www.loremipsum.com} | \faAt~~\href{mailto:lorem@ipsum.com}{lorem@ipsum.com} | \faMobile~~+1 (234) 567-8901}
+
+%% Column 1
+
+\begin{minipage}[t]{0.34\textwidth}
+
+    %% Education
+
+    \section{Education}
+
+    \subsection{{Lorem Ipsum University}}
+    \descript{MS in Lorem Ipsum}
+    \location{Jan 1900 | Big City, USA}
+
+    \subsection{{University of Ipsum Lorem}}
+    \descript{BS in Ipsum Lorem}
+    \location{Jan 1900 | Big City, USA}
+
+    %% Skills
+
+    \section{Skills}
+
+    \subsection{Programming}
+    \justifying \noindent \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX
+    \sectionsep
+
+    \subsection{Frameworks}
+    \justifying \noindent \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX
+    \sectionsep
+
+    \subsection{Databases}
+    \justifying \noindent \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX
+    \sectionsep
+
+    \subsection{Markup Languages}
+    \justifying \noindent \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX \textbullet{} \LaTeX
+
+    %% Conferences
+
+    \section{Conferences}
+
+    \noindent\subsubsection{{Lorem Ipsum}}
+    \descript{Delegate}
+    \location{1900}
+    \location{Big City, USA}
+    \sectionsep
+
+    \noindent\subsubsection{{Ipsum Lorem}}
+    \descript{Delegate}
+    \location{2000}
+    \location{Big City, USA}
+
+\end{minipage}
+\hfill
+%% Column 2
+\begin{minipage}[t]{0.62\textwidth}
+
+    %% Work Experience
+
+    \section{Work Experience}
+
+    \noindent \runsubsection{{Lorem Ipsum}}
+    \location{Maruary 1910 -- present | Big City, USA}
+    \runsubsubsection{Lorem ipsum dolor sit amet}\\
+    \justifying \noindent \begin{tightemize}
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    \end{tightemize}
+    \sectionsep
+
+    \noindent \runsubsection{{Lorem Ipsum}}
+    % \vspace{-\topsep} % hacky extra space to fix indentation
+    \location{Maruary 1910 -- Maruary 1910 | Big City, USA}
+    \runsubsubsection{Lorem ipsum dolor sit amet}\\
+    \noindent {\fontsize{11pt}{13pt}\selectfont\textbf{Ipsum}}
+    \location{Maruary 1910 -- Maruary 1910}
+    \vspace{-\topsep} % hacky extra space to fix indentation
+    \justifying \noindent \begin{tightemize}
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    \end{tightemize}
+    \sectionsep
+
+    \noindent {\fontsize{11pt}{13pt}\selectfont\textbf{Lorem}}
+    \location{Maruary 1910 -- Maruary 1910}
+    \vspace{-\topsep} % hacky extra space to fix indentation
+    \justifying \noindent \begin{tightemize}
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    \end{tightemize}
+    \sectionsep
+
+    \noindent \runsubsubsection{Lorem ipsum dolor sit amet}
+    \location{Maruary 1910 -- Maruary 1910}
+    \vspace{-\topsep} % Hacky fix for awkward extra vertical space
+    \justifying \noindent \begin{tightemize}
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    \end{tightemize}
+    \sectionsep
+
+    %% Awards & Honors
+
+    \section{Awards \& Honors}
+
+    \begin{tabular}{rl}
+        \textbf{1900} & Lorem ipsum dolor sit amet\\
+        \textbf{1901} & Lorem ipsum dolor sit amet\\
+        \textbf{1902} & Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    \end{tabular}
+
+\end{minipage}
+\end{document}
